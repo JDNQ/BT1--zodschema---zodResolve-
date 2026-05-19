@@ -1,0 +1,648 @@
+yarn run v1.22.22
+$ nest start --watch
+[2J[3J[H[[90m3:56:40 PM[0m] Starting compilation in watch mode...
+
+[96mprisma/prisma.config.ts[0m:[93m11[0m:[93m40[0m - [91merror[0m[90m TS2559: [0mType '{ readonly datasources: { readonly db: { readonly url: string | undefined; }; }; }' has no properties in common with type 'Subset<PrismaClientOptions, PrismaClientOptions>'.
+
+[7m11[0m export const prisma = new PrismaClient(options);
+[7m  [0m [91m                                       ~~~~~~~[0m
+
+[96msrc/prisma/prisma.service.ts[0m:[93m11[0m:[93m14[0m - [91merror[0m[90m TS2345: [0mArgument of type '"beforeExit"' is not assignable to parameter of type 'never'.
+
+[7m11[0m     this.$on("beforeExit", async () => {
+[7m  [0m [91m             ~~~~~~~~~~~~[0m
+
+[[90m3:56:43 PM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m3:57:03 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/prisma/prisma.service.ts[0m:[93m11[0m:[93m14[0m - [91merror[0m[90m TS2345: [0mArgument of type '"beforeExit"' is not assignable to parameter of type 'never'.
+
+[7m11[0m     this.$on("beforeExit", async () => {
+[7m  [0m [91m             ~~~~~~~~~~~~[0m
+
+[[90m3:57:03 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m3:57:09 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/main.ts[0m:[93m28[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'enableShutdownHooks' does not exist on type 'PrismaService'.
+
+[7m28[0m   await prismaService.enableShutdownHooks(app);
+[7m  [0m [91m                      ~~~~~~~~~~~~~~~~~~~[0m
+
+[[90m3:57:12 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m3:57:14 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/main.ts[0m:[93m28[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'enableShutdownHooks' does not exist on type 'PrismaService'.
+
+[7m28[0m   await prismaService.enableShutdownHooks(app);
+[7m  [0m [91m                      ~~~~~~~~~~~~~~~~~~~[0m
+
+[[90m3:57:14 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m3:57:16 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m3:57:17 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 29340  - [39m05/19/2026, 3:57:19 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[2J[3J[H[[90m3:57:23 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m3:57:24 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 21168  - [39m05/19/2026, 3:57:26 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[2J[3J[H[[90m3:57:30 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m3:57:31 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 26728  - [39m05/19/2026, 3:57:32 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[2J[3J[H[[90m3:57:57 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m3:57:58 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 12616  - [39m05/19/2026, 3:57:59 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[2J[3J[H[[90m3:59:00 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/prisma/prisma.service.ts[0m:[93m11[0m:[93m14[0m - [91merror[0m[90m TS2345: [0mArgument of type '"beforeExit"' is not assignable to parameter of type 'never'.
+
+[7m11[0m     this.$on("beforeExit", async () => {
+[7m  [0m [91m             ~~~~~~~~~~~~[0m
+
+[[90m3:59:01 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m3:59:38 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/prisma/prisma.service.ts[0m:[93m11[0m:[93m14[0m - [91merror[0m[90m TS2345: [0mArgument of type 'any' is not assignable to parameter of type 'never'.
+
+[7m11[0m     this.$on("beforeExit" as any, async () => {
+[7m  [0m [91m             ~~~~~~~~~~~~~~~~~~~[0m
+
+[[90m3:59:38 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m3:59:52 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m3:59:53 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 15824  - [39m05/19/2026, 3:59:54 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[2J[3J[H[[90m4:00:11 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:00:11 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 23284  - [39m05/19/2026, 4:00:13 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[2J[3J[H[[90m4:00:37 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:00:37 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 4708  - [39m05/19/2026, 4:00:39 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[2J[3J[H[[90m4:01:12 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/prisma/prisma.service.ts[0m:[93m3[0m:[93m40[0m - [91merror[0m[90m TS2307: [0mCannot find module './prisma.config' or its corresponding type declarations.
+
+[7m3[0m import { prisma as prismaClient } from "./prisma.config";
+[7m [0m [91m                                       ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/prisma/prisma.service.ts[0m:[93m8[0m:[93m5[0m - [91merror[0m[90m TS2578: [0mUnused '@ts-expect-error' directive.
+
+[7m8[0m     // @ts-expect-error - prismaClient là instance PrismaClient cấu hình sẵn.
+[7m [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[[90m4:01:12 PM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:01:34 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/auth/auth.service.ts[0m:[93m4[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module '../prisma/prisma.service' or its corresponding type declarations.
+
+[7m4[0m import { PrismaService } from "../prisma/prisma.service";
+[7m [0m [91m                              ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/prisma/prisma.module.ts[0m:[93m3[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module './prisma.service' or its corresponding type declarations.
+
+[7m3[0m import { PrismaService } from "./prisma.service";
+[7m [0m [91m                              ~~~~~~~~~~~~~~~~~~[0m
+
+[[90m4:01:35 PM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:01:39 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:01:41 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 12052  - [39m05/19/2026, 4:01:43 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[2J[3J[H[[90m4:01:47 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:01:47 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 27972  - [39m05/19/2026, 4:01:50 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[2J[3J[H[[90m4:03:10 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/prisma/prisma.service.ts[0m:[93m18[0m:[93m7[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'datasources' does not exist in type 'Subset<PrismaClientOptions, PrismaClientOptions>'.
+
+[7m18[0m       datasources: {
+[7m  [0m [91m      ~~~~~~~~~~~[0m
+
+[[90m4:03:11 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m4:03:22 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:03:23 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 15512  - [39m05/19/2026, 4:03:25 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[2J[3J[H[[90m4:03:37 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:03:38 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 27692  - [39m05/19/2026, 4:03:40 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[2J[3J[H[[90m4:04:35 PM[0m] File change detected. Starting incremental compilation...
+
+[91merror[0m[90m TS2688: [0mCannot find type definition file for 'geojson'.
+  The file is in the program because:
+    Entry point for implicit type library 'geojson'
+
+[[90m4:04:35 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m4:04:41 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:04:41 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 23960  - [39m05/19/2026, 4:04:45 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[2J[3J[H[[90m4:04:45 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:04:46 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 5244  - [39m05/19/2026, 4:04:48 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[2J[3J[H[[90m4:05:05 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/auth/auth.service.ts[0m:[93m4[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module '../prisma/prisma.service' or its corresponding type declarations.
+
+[7m4[0m import { PrismaService } from "../prisma/prisma.service";
+[7m [0m [91m                              ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/prisma/prisma.module.ts[0m:[93m3[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module './prisma.service' or its corresponding type declarations.
+
+[7m3[0m import { PrismaService } from "./prisma.service";
+[7m [0m [91m                              ~~~~~~~~~~~~~~~~~~[0m
+
+[[90m4:05:06 PM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:05:13 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:05:14 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 10320  - [39m05/19/2026, 4:05:17 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 10320  - [39m05/19/2026, 4:05:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +26ms[39m
+[32m[Nest] 10320  - [39m05/19/2026, 4:05:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 10320  - [39m05/19/2026, 4:05:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 10320  - [39m05/19/2026, 4:05:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 10320  - [39m05/19/2026, 4:05:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10320  - [39m05/19/2026, 4:05:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 10320  - [39m05/19/2026, 4:05:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 10320  - [39m05/19/2026, 4:05:17 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +138ms[39m
+[32m[Nest] 10320  - [39m05/19/2026, 4:05:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +9ms[39m
+[32m[Nest] 10320  - [39m05/19/2026, 4:05:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 10320  - [39m05/19/2026, 4:05:18 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +274ms[39m
+[2J[3J[H[[90m4:23:17 PM[0m] File change detected. Starting incremental compilation...
+
+[2J[3J[H[[90m4:27:15 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:27:15 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:27:16 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:27:17 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:27:18 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:27:18 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 24488  - [39m05/19/2026, 4:27:21 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 24488  - [39m05/19/2026, 4:27:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +38ms[39m
+[32m[Nest] 24488  - [39m05/19/2026, 4:27:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +28ms[39m
+[32m[Nest] 24488  - [39m05/19/2026, 4:27:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 24488  - [39m05/19/2026, 4:27:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 24488  - [39m05/19/2026, 4:27:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 24488  - [39m05/19/2026, 4:27:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 24488  - [39m05/19/2026, 4:27:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 24488  - [39m05/19/2026, 4:27:21 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +173ms[39m
+[32m[Nest] 24488  - [39m05/19/2026, 4:27:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +7ms[39m
+[32m[Nest] 24488  - [39m05/19/2026, 4:27:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 24488  - [39m05/19/2026, 4:27:21 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +156ms[39m
+[2J[3J[H[[90m4:27:21 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:27:21 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 26332  - [39m05/19/2026, 4:27:23 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 26332  - [39m05/19/2026, 4:27:23 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +16ms[39m
+[32m[Nest] 26332  - [39m05/19/2026, 4:27:23 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 26332  - [39m05/19/2026, 4:27:23 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 26332  - [39m05/19/2026, 4:27:23 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 26332  - [39m05/19/2026, 4:27:23 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 26332  - [39m05/19/2026, 4:27:23 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 26332  - [39m05/19/2026, 4:27:23 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 26332  - [39m05/19/2026, 4:27:23 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +59ms[39m
+[32m[Nest] 26332  - [39m05/19/2026, 4:27:23 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 26332  - [39m05/19/2026, 4:27:23 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 26332  - [39m05/19/2026, 4:27:23 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +131ms[39m
+[2J[3J[H[[90m4:32:51 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:32:51 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 14912  - [39m05/19/2026, 4:32:54 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 14912  - [39m05/19/2026, 4:32:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +14ms[39m
+[32m[Nest] 14912  - [39m05/19/2026, 4:32:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14912  - [39m05/19/2026, 4:32:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14912  - [39m05/19/2026, 4:32:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14912  - [39m05/19/2026, 4:32:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14912  - [39m05/19/2026, 4:32:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14912  - [39m05/19/2026, 4:32:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14912  - [39m05/19/2026, 4:32:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +69ms[39m
+[32m[Nest] 14912  - [39m05/19/2026, 4:32:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 14912  - [39m05/19/2026, 4:32:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14912  - [39m05/19/2026, 4:32:54 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +101ms[39m
+[2J[3J[H[[90m4:32:55 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:32:57 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 12092  - [39m05/19/2026, 4:32:59 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 12092  - [39m05/19/2026, 4:32:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +12ms[39m
+[32m[Nest] 12092  - [39m05/19/2026, 4:32:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12092  - [39m05/19/2026, 4:32:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12092  - [39m05/19/2026, 4:32:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12092  - [39m05/19/2026, 4:32:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12092  - [39m05/19/2026, 4:32:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12092  - [39m05/19/2026, 4:32:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12092  - [39m05/19/2026, 4:32:59 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +38ms[39m
+[32m[Nest] 12092  - [39m05/19/2026, 4:32:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 12092  - [39m05/19/2026, 4:32:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12092  - [39m05/19/2026, 4:32:59 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +99ms[39m
+[2J[3J[H[[90m4:35:11 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:35:11 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:35:13 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:35:13 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:35:14 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:35:14 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:35:16 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:35:16 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 14600  - [39m05/19/2026, 4:35:16 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 14600  - [39m05/19/2026, 4:35:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +36ms[39m
+[32m[Nest] 14600  - [39m05/19/2026, 4:35:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14600  - [39m05/19/2026, 4:35:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14600  - [39m05/19/2026, 4:35:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14600  - [39m05/19/2026, 4:35:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14600  - [39m05/19/2026, 4:35:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 14600  - [39m05/19/2026, 4:35:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14600  - [39m05/19/2026, 4:35:16 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +136ms[39m
+[32m[Nest] 21528  - [39m05/19/2026, 4:35:18 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 21528  - [39m05/19/2026, 4:35:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +23ms[39m
+[32m[Nest] 21528  - [39m05/19/2026, 4:35:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 21528  - [39m05/19/2026, 4:35:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 21528  - [39m05/19/2026, 4:35:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 21528  - [39m05/19/2026, 4:35:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 21528  - [39m05/19/2026, 4:35:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 21528  - [39m05/19/2026, 4:35:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 21528  - [39m05/19/2026, 4:35:18 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +45ms[39m
+[32m[Nest] 21528  - [39m05/19/2026, 4:35:18 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 21528  - [39m05/19/2026, 4:35:18 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 21528  - [39m05/19/2026, 4:35:18 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +98ms[39m
+[2J[3J[H[[90m4:37:41 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:37:42 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 28380  - [39m05/19/2026, 4:37:43 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 28380  - [39m05/19/2026, 4:37:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +21ms[39m
+[32m[Nest] 28380  - [39m05/19/2026, 4:37:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28380  - [39m05/19/2026, 4:37:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 28380  - [39m05/19/2026, 4:37:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 28380  - [39m05/19/2026, 4:37:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28380  - [39m05/19/2026, 4:37:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 28380  - [39m05/19/2026, 4:37:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 28380  - [39m05/19/2026, 4:37:43 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +54ms[39m
+[32m[Nest] 28380  - [39m05/19/2026, 4:37:43 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 28380  - [39m05/19/2026, 4:37:43 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 28380  - [39m05/19/2026, 4:37:43 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +105ms[39m
+[2J[3J[H[[90m4:38:21 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:38:22 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 13460  - [39m05/19/2026, 4:38:25 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 13460  - [39m05/19/2026, 4:38:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +29ms[39m
+[32m[Nest] 13460  - [39m05/19/2026, 4:38:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 13460  - [39m05/19/2026, 4:38:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 13460  - [39m05/19/2026, 4:38:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 13460  - [39m05/19/2026, 4:38:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 13460  - [39m05/19/2026, 4:38:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 13460  - [39m05/19/2026, 4:38:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 13460  - [39m05/19/2026, 4:38:25 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +83ms[39m
+[32m[Nest] 13460  - [39m05/19/2026, 4:38:25 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 13460  - [39m05/19/2026, 4:38:25 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13460  - [39m05/19/2026, 4:38:25 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +147ms[39m
+[2J[3J[H[[90m4:48:47 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:48:49 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:48:50 PM[0m] File change detected. Starting incremental compilation...
+
+[32m[Nest] 12848  - [39m05/19/2026, 4:48:51 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 12848  - [39m05/19/2026, 4:48:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +34ms[39m
+[32m[Nest] 12848  - [39m05/19/2026, 4:48:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12848  - [39m05/19/2026, 4:48:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12848  - [39m05/19/2026, 4:48:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12848  - [39m05/19/2026, 4:48:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12848  - [39m05/19/2026, 4:48:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12848  - [39m05/19/2026, 4:48:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[[90m4:48:51 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 12848  - [39m05/19/2026, 4:48:51 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +100ms[39m
+[32m[Nest] 12848  - [39m05/19/2026, 4:48:51 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 12848  - [39m05/19/2026, 4:48:51 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12848  - [39m05/19/2026, 4:48:52 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +356ms[39m
+[2J[3J[H[[90m4:48:52 PM[0m] File change detected. Starting incremental compilation...
+
+[32m[Nest] 28632  - [39m05/19/2026, 4:48:53 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 28632  - [39m05/19/2026, 4:48:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +18ms[39m
+[32m[Nest] 28632  - [39m05/19/2026, 4:48:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28632  - [39m05/19/2026, 4:48:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 28632  - [39m05/19/2026, 4:48:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28632  - [39m05/19/2026, 4:48:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 28632  - [39m05/19/2026, 4:48:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 28632  - [39m05/19/2026, 4:48:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28632  - [39m05/19/2026, 4:48:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +54ms[39m
+[32m[Nest] 28632  - [39m05/19/2026, 4:48:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 28632  - [39m05/19/2026, 4:48:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 28632  - [39m05/19/2026, 4:48:54 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +189ms[39m
+[[90m4:48:55 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:48:55 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:48:58 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:48:58 PM[0m] File change detected. Starting incremental compilation...
+
+[32m[Nest] 26104  - [39m05/19/2026, 4:49:00 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 26104  - [39m05/19/2026, 4:49:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +17ms[39m
+[32m[Nest] 26104  - [39m05/19/2026, 4:49:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 26104  - [39m05/19/2026, 4:49:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 26104  - [39m05/19/2026, 4:49:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 26104  - [39m05/19/2026, 4:49:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 26104  - [39m05/19/2026, 4:49:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 26104  - [39m05/19/2026, 4:49:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 26104  - [39m05/19/2026, 4:49:00 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +52ms[39m
+[32m[Nest] 26104  - [39m05/19/2026, 4:49:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 26104  - [39m05/19/2026, 4:49:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 26104  - [39m05/19/2026, 4:49:00 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +235ms[39m
+[[90m4:49:01 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 23836  - [39m05/19/2026, 4:49:03 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 23836  - [39m05/19/2026, 4:49:03 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +67ms[39m
+[32m[Nest] 23836  - [39m05/19/2026, 4:49:03 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 23836  - [39m05/19/2026, 4:49:03 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 23836  - [39m05/19/2026, 4:49:03 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 23836  - [39m05/19/2026, 4:49:03 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 23836  - [39m05/19/2026, 4:49:03 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 23836  - [39m05/19/2026, 4:49:03 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 23836  - [39m05/19/2026, 4:49:03 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +80ms[39m
+[32m[Nest] 23836  - [39m05/19/2026, 4:49:03 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 23836  - [39m05/19/2026, 4:49:03 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 23836  - [39m05/19/2026, 4:49:04 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +162ms[39m
+[2J[3J[H[[90m4:49:04 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:49:04 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:49:06 PM[0m] File change detected. Starting incremental compilation...
+
+[32m[Nest] 4000  - [39m05/19/2026, 4:49:07 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 4000  - [39m05/19/2026, 4:49:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +21ms[39m
+[32m[Nest] 4000  - [39m05/19/2026, 4:49:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 4000  - [39m05/19/2026, 4:49:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4000  - [39m05/19/2026, 4:49:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 4000  - [39m05/19/2026, 4:49:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4000  - [39m05/19/2026, 4:49:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 4000  - [39m05/19/2026, 4:49:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 4000  - [39m05/19/2026, 4:49:07 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +79ms[39m
+[32m[Nest] 4000  - [39m05/19/2026, 4:49:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 4000  - [39m05/19/2026, 4:49:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[[90m4:49:07 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 4000  - [39m05/19/2026, 4:49:07 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +165ms[39m
+[2J[3J[H[[90m4:49:08 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:49:09 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:49:11 PM[0m] File change detected. Starting incremental compilation...
+
+[32m[Nest] 22672  - [39m05/19/2026, 4:49:12 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 22672  - [39m05/19/2026, 4:49:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +30ms[39m
+[32m[Nest] 22672  - [39m05/19/2026, 4:49:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 22672  - [39m05/19/2026, 4:49:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 22672  - [39m05/19/2026, 4:49:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +6ms[39m
+[32m[Nest] 22672  - [39m05/19/2026, 4:49:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22672  - [39m05/19/2026, 4:49:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 22672  - [39m05/19/2026, 4:49:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 22672  - [39m05/19/2026, 4:49:12 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +112ms[39m
+[32m[Nest] 22672  - [39m05/19/2026, 4:49:12 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +7ms[39m
+[32m[Nest] 22672  - [39m05/19/2026, 4:49:12 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22672  - [39m05/19/2026, 4:49:12 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +174ms[39m
+[[90m4:49:12 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:49:13 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:49:14 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:49:14 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:49:15 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 8396  - [39m05/19/2026, 4:49:17 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 8396  - [39m05/19/2026, 4:49:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +16ms[39m
+[32m[Nest] 8396  - [39m05/19/2026, 4:49:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 8396  - [39m05/19/2026, 4:49:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 8396  - [39m05/19/2026, 4:49:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 8396  - [39m05/19/2026, 4:49:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8396  - [39m05/19/2026, 4:49:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 8396  - [39m05/19/2026, 4:49:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 8396  - [39m05/19/2026, 4:49:17 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +48ms[39m
+[32m[Nest] 8396  - [39m05/19/2026, 4:49:18 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 8396  - [39m05/19/2026, 4:49:18 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 8396  - [39m05/19/2026, 4:49:18 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +113ms[39m
+[2J[3J[H[[90m4:50:28 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:50:30 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 5656  - [39m05/19/2026, 4:50:33 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 5656  - [39m05/19/2026, 4:50:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +21ms[39m
+[32m[Nest] 5656  - [39m05/19/2026, 4:50:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 5656  - [39m05/19/2026, 4:50:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5656  - [39m05/19/2026, 4:50:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 5656  - [39m05/19/2026, 4:50:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5656  - [39m05/19/2026, 4:50:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 5656  - [39m05/19/2026, 4:50:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5656  - [39m05/19/2026, 4:50:33 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +102ms[39m
+[32m[Nest] 5656  - [39m05/19/2026, 4:50:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 5656  - [39m05/19/2026, 4:50:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 5656  - [39m05/19/2026, 4:50:33 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +122ms[39m
+[2J[3J[H[[90m4:51:25 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:51:26 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 29632  - [39m05/19/2026, 4:51:27 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 29632  - [39m05/19/2026, 4:51:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +16ms[39m
+[32m[Nest] 29632  - [39m05/19/2026, 4:51:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29632  - [39m05/19/2026, 4:51:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 29632  - [39m05/19/2026, 4:51:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29632  - [39m05/19/2026, 4:51:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29632  - [39m05/19/2026, 4:51:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 29632  - [39m05/19/2026, 4:51:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 29632  - [39m05/19/2026, 4:51:27 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +39ms[39m
+[32m[Nest] 29632  - [39m05/19/2026, 4:51:27 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 29632  - [39m05/19/2026, 4:51:27 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 29632  - [39m05/19/2026, 4:51:27 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +100ms[39m
+[2J[3J[H[[90m4:51:44 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:51:44 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 24416  - [39m05/19/2026, 4:51:46 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 24416  - [39m05/19/2026, 4:51:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +22ms[39m
+[32m[Nest] 24416  - [39m05/19/2026, 4:51:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 24416  - [39m05/19/2026, 4:51:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 24416  - [39m05/19/2026, 4:51:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 24416  - [39m05/19/2026, 4:51:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 24416  - [39m05/19/2026, 4:51:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 24416  - [39m05/19/2026, 4:51:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 24416  - [39m05/19/2026, 4:51:46 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +60ms[39m
+[32m[Nest] 24416  - [39m05/19/2026, 4:51:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 24416  - [39m05/19/2026, 4:51:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 24416  - [39m05/19/2026, 4:51:46 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +95ms[39m
+[2J[3J[H[[90m4:54:33 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:54:34 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 28188  - [39m05/19/2026, 4:54:35 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 28188  - [39m05/19/2026, 4:54:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +27ms[39m
+[32m[Nest] 28188  - [39m05/19/2026, 4:54:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 28188  - [39m05/19/2026, 4:54:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28188  - [39m05/19/2026, 4:54:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28188  - [39m05/19/2026, 4:54:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 28188  - [39m05/19/2026, 4:54:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 28188  - [39m05/19/2026, 4:54:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28188  - [39m05/19/2026, 4:54:35 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +82ms[39m
+[32m[Nest] 28188  - [39m05/19/2026, 4:54:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 28188  - [39m05/19/2026, 4:54:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 28188  - [39m05/19/2026, 4:54:36 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +182ms[39m
+[2J[3J[H[[90m5:00:13 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:00:13 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 12472  - [39m05/19/2026, 5:00:15 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 12472  - [39m05/19/2026, 5:00:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +16ms[39m
+[32m[Nest] 12472  - [39m05/19/2026, 5:00:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12472  - [39m05/19/2026, 5:00:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12472  - [39m05/19/2026, 5:00:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m05/19/2026, 5:00:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m05/19/2026, 5:00:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12472  - [39m05/19/2026, 5:00:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12472  - [39m05/19/2026, 5:00:15 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +44ms[39m
+[32m[Nest] 12472  - [39m05/19/2026, 5:00:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 12472  - [39m05/19/2026, 5:00:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12472  - [39m05/19/2026, 5:00:15 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +91ms[39m
+[2J[3J[H[[90m5:07:10 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:07:10 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 27500  - [39m05/19/2026, 5:07:12 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 27500  - [39m05/19/2026, 5:07:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +17ms[39m
+[32m[Nest] 27500  - [39m05/19/2026, 5:07:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 27500  - [39m05/19/2026, 5:07:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27500  - [39m05/19/2026, 5:07:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 27500  - [39m05/19/2026, 5:07:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27500  - [39m05/19/2026, 5:07:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 27500  - [39m05/19/2026, 5:07:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27500  - [39m05/19/2026, 5:07:12 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +68ms[39m
+[32m[Nest] 27500  - [39m05/19/2026, 5:07:12 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 27500  - [39m05/19/2026, 5:07:12 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 27500  - [39m05/19/2026, 5:07:12 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +129ms[39m
+[2J[3J[H[[90m5:07:23 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:07:23 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 28632  - [39m05/19/2026, 5:07:25 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 28632  - [39m05/19/2026, 5:07:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +13ms[39m
+[32m[Nest] 28632  - [39m05/19/2026, 5:07:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 28632  - [39m05/19/2026, 5:07:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28632  - [39m05/19/2026, 5:07:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28632  - [39m05/19/2026, 5:07:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 28632  - [39m05/19/2026, 5:07:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28632  - [39m05/19/2026, 5:07:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 28632  - [39m05/19/2026, 5:07:25 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +45ms[39m
+[32m[Nest] 28632  - [39m05/19/2026, 5:07:25 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 28632  - [39m05/19/2026, 5:07:25 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 28632  - [39m05/19/2026, 5:07:25 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +91ms[39m
+[2J[3J[H[[90m5:07:33 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:07:33 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 24192  - [39m05/19/2026, 5:07:34 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 24192  - [39m05/19/2026, 5:07:34 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +12ms[39m
+[32m[Nest] 24192  - [39m05/19/2026, 5:07:34 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 24192  - [39m05/19/2026, 5:07:34 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 24192  - [39m05/19/2026, 5:07:34 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 24192  - [39m05/19/2026, 5:07:34 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 24192  - [39m05/19/2026, 5:07:34 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 24192  - [39m05/19/2026, 5:07:34 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 24192  - [39m05/19/2026, 5:07:34 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +39ms[39m
+[32m[Nest] 24192  - [39m05/19/2026, 5:07:34 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 24192  - [39m05/19/2026, 5:07:34 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 24192  - [39m05/19/2026, 5:07:35 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +88ms[39m
+[2J[3J[H[[90m5:08:52 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:08:52 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 23728  - [39m05/19/2026, 5:08:53 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 23728  - [39m05/19/2026, 5:08:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +18ms[39m
+[32m[Nest] 23728  - [39m05/19/2026, 5:08:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 23728  - [39m05/19/2026, 5:08:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 23728  - [39m05/19/2026, 5:08:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 23728  - [39m05/19/2026, 5:08:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 23728  - [39m05/19/2026, 5:08:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 23728  - [39m05/19/2026, 5:08:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 23728  - [39m05/19/2026, 5:08:53 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +42ms[39m
+[32m[Nest] 23728  - [39m05/19/2026, 5:08:53 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 23728  - [39m05/19/2026, 5:08:53 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 23728  - [39m05/19/2026, 5:08:54 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +104ms[39m
+[2J[3J[H[[90m5:09:15 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:09:15 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 28336  - [39m05/19/2026, 5:09:16 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 28336  - [39m05/19/2026, 5:09:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +17ms[39m
+[32m[Nest] 28336  - [39m05/19/2026, 5:09:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28336  - [39m05/19/2026, 5:09:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 28336  - [39m05/19/2026, 5:09:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 28336  - [39m05/19/2026, 5:09:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28336  - [39m05/19/2026, 5:09:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 28336  - [39m05/19/2026, 5:09:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 28336  - [39m05/19/2026, 5:09:16 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +58ms[39m
+[32m[Nest] 28336  - [39m05/19/2026, 5:09:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 28336  - [39m05/19/2026, 5:09:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 28336  - [39m05/19/2026, 5:09:16 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +100ms[39m
+[2J[3J[H[[90m5:09:22 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:09:22 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 27280  - [39m05/19/2026, 5:09:24 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 27280  - [39m05/19/2026, 5:09:24 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +27ms[39m
+[32m[Nest] 27280  - [39m05/19/2026, 5:09:24 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27280  - [39m05/19/2026, 5:09:24 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 27280  - [39m05/19/2026, 5:09:24 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27280  - [39m05/19/2026, 5:09:24 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27280  - [39m05/19/2026, 5:09:24 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 27280  - [39m05/19/2026, 5:09:24 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 27280  - [39m05/19/2026, 5:09:24 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +64ms[39m
+[32m[Nest] 27280  - [39m05/19/2026, 5:09:24 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 27280  - [39m05/19/2026, 5:09:24 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 27280  - [39m05/19/2026, 5:09:24 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +131ms[39m

@@ -1,15 +1,16 @@
-# TODO - BT1 (Phần 1)
+# TODO - BT1 (Phan 1)
 
-- [x] Bước 1: Tạo cấu trúc dự án trong repo `BT1` (frontend/ và backend/)
-- [x] Bước 2: Cài deps Frontend (yarn)
-- [x] Bước 3: Tạo Zod schemas (frontend/src/schemas/auth.schema.ts)
-- [x] Bước 4: Tạo Auth axios service (frontend/src/services/auth.service.ts)
-- [x] Bước 5: Tạo Login page (frontend/src/app/login/page.tsx)
-- [x] Bước 6: Tạo Register page (frontend/src/app/register/page.tsx)
-- [x] Bước 7: Cài deps Backend (yarn)
+- [x] Buoc 1: Tao cau truc du an trong repo `BT1` (frontend/ va backend/)
+- [x] Buoc 2: Cai deps Frontend (yarn)
+- [x] Buoc 3: Tao Zod schemas (frontend/src/schemas/auth.schema.ts)
+- [x] Buoc 4: Tao Auth axios service (frontend/src/services/auth.service.ts)
+- [x] Buoc 5: Tao Login page (frontend/src/app/login/page.tsx)
+- [x] Buoc 6: Tao Register page (frontend/src/app/register/page.tsx)
+- [x] Buoc 7: Cai deps Backend (yarn)
 
-- [ ] Bước 8: Khởi tạo Prisma + schema.prisma + migrate
-- [ ] Bước 9: Tạo PrismaService/PrismaModule
-- [ ] Bước 10: Tạo NestJS Auth Module + DTO + Swagger
-- [ ] Bước 11: Swagger config ở main.ts
-- [ ] Bước 12: Chạy thử và kiểm tra `/api/docs`, luồng login/register
+- [ ] Buoc 8: Khoi tao Prisma + schema.prisma + migrate (DB hien tai chua co table `User`/`user`; can baseline migration hoặc db reset)
+
+- [x] Buoc 9: Tao PrismaService/PrismaModule
+- [x] Buoc 10: Tao NestJS Auth Module + DTO + Swagger
+- [x] Buoc 11: Swagger config o main.ts
+- [ ] Buoc 12: Chay thu va kiem tra `/api/docs`, luong login/register (docs tra 200; auth endpoint con loi runtime do trang thai DB/local process)

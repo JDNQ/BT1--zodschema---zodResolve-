@@ -1,25 +1,25 @@
-import { z } from "zod";
+﻿import { z } from "zod";
 
-export const LoginSchema = z.object({
-  username: z.string().min(1, "Username bắt buộc"),
-  password: z.string().min(6, "Mật khẩu phải có ít nhất 6 ký tự"),
+export const loginSchema = z.object({
+  username: z.string().min(1, "Username là bắt buộc"),
+  password: z.string().min(1, "Password là bắt buộc"),
 });
 
-export type LoginInput = z.infer<typeof LoginSchema>;
+export type LoginInput = z.infer<typeof loginSchema>;
 
-export const RegisterSchema = z
+export const registerSchema = z
   .object({
-    username: z.string().min(1, "Username bắt buộc"),
-    password: z.string().min(6, "Mật khẩu phải có ít nhất 6 ký tự"),
-    passwordAgain: z.string().min(1, "Mật khẩu nhập lại bắt buộc"),
+    username: z.string().min(1, "Username là bắt buộc"),
+    password: z.string().min(6, "Password phải từ 6 ký tự trở lên"),
+    confirmPassword: z.string(),
     sex: z.enum(["Nam", "Nữ", "Khác"], {
-      errorMap: () => ({ message: "Giới tính bắt buộc" }),
+      message: "Vui lòng chọn giới tính",
     }),
     email: z.string().email("Email không hợp lệ").optional().or(z.literal("")),
   })
-  .refine((data) => data.password === data.passwordAgain, {
-    path: ["passwordAgain"],
+  .refine((data) => data.password === data.confirmPassword, {
     message: "Mật khẩu nhập lại không khớp",
+    path: ["confirmPassword"],
   });
 
-export type RegisterInput = z.infer<typeof RegisterSchema>;
+export type RegisterInput = z.infer<typeof registerSchema>;
