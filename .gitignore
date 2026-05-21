@@ -1,5 +1,38 @@
+﻿# Dependencies
+node_modules/
 
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-#Ignore vscode AI rules
-.github\instructions\codacy.instructions.md
-node_modules
+# Env files
+.env
+.env.*
+!.env.example
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Next.js (frontend)
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+frontend/.vercel/
+
+# NestJS / TypeScript build (backend)
+backend/dist/
+backend/.turbo/
+backend/coverage/
+*.tsbuildinfo
+
+# Local runtime/debug files
+backend/run.out.log
+
+# Ignore vscode AI rules
+.github/instructions/codacy.instructions.md
