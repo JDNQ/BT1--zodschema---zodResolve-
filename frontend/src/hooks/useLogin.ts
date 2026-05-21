@@ -28,10 +28,13 @@ export function useLogin() {
     try {
       const { accessToken } = await loginApi(values);
       localStorage.setItem("accessToken", accessToken);
-      setSuccessMessage("Đăng nhập thành công, đang chuyển trang...");
-      setTimeout(() => router.push("/"), 500);
+
+      setSuccessMessage("Đăng nhập thành công");
+      // Không chuyển trang để hiển thị thông báo ngay trên trang login
+      // setTimeout(() => router.push("/"), 500);
     } catch (error) {
-      const message = getServerErrorMessage(error) || "Sai username hoặc password";
+      const message =
+        getServerErrorMessage(error) || "Sai username hoặc password";
       setServerError(message);
       form.setError("username", { type: "server", message });
     }

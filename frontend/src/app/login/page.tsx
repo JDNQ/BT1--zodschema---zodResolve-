@@ -99,6 +99,7 @@ export default function LoginPage() {
     formState: { errors, isSubmitting },
     onSubmit,
     serverError,
+    successMessage,
     showPassword,
     setShowPassword,
   } = useLogin();
@@ -164,6 +165,12 @@ export default function LoginPage() {
           >
             {isSubmitting ? <Spinner /> : "Đăng nhập"}
           </button>
+
+          {successMessage ? (
+            <div className="rounded-lg border border-emerald-200 bg-emerald-50 p-3 text-sm text-emerald-700">
+              {successMessage}
+            </div>
+          ) : null}
 
           {serverError ? (
             <div className="flex items-start gap-2 rounded-lg border border-red-200 bg-red-50 p-3 text-sm text-[#dc2626]">
