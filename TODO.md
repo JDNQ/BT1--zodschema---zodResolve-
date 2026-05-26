@@ -8,9 +8,9 @@
 - [x] Buoc 6: Tao Register page (frontend/src/app/register/page.tsx)
 - [x] Buoc 7: Cai deps Backend (yarn)
 
-- [ ] Buoc 8: Khoi tao Prisma + schema.prisma + migrate (DB hien tai chua co table `User`/`user`; can baseline migration hoặc db reset)
+- [x] Buoc 8: Khoi tao Prisma + schema.prisma + migrate
 
 - [x] Buoc 9: Tao PrismaService/PrismaModule
 - [x] Buoc 10: Tao NestJS Auth Module + DTO + Swagger
 - [x] Buoc 11: Swagger config o main.ts
-- [ ] Buoc 12: Chay thu va kiem tra `/api/docs`, luong login/register (docs tra 200; auth endpoint con loi runtime do trang thai DB/local process)
+- [x] Buoc 12: Chay thu va kiem tra `/api/docs`, luong login/register
