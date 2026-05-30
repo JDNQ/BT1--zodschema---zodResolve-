@@ -1,6 +1,6 @@
 import { Injectable, OnModuleDestroy, OnModuleInit } from "@nestjs/common";
 import { PrismaMariaDb } from "@prisma/adapter-mariadb";
-import { PrismaClient } from "@prisma/client"; // ← Dùng cái này
+import { PrismaClient } from "@prisma/client";
 import * as dotenv from "dotenv";
 import { URL } from "node:url";
 
