@@ -6,9 +6,11 @@ import { AppModule } from "./app.module";
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
-  // CORS - Cho phép tất cả (cách mạnh nhất)
+  // CORS - CÁCH MẠNH NHẤT HIỆN TẠI
   app.enableCors({
-    origin: true,
+    origin: (origin, callback) => {
+      callback(null, true); // Cho phép tất cả origin
+    },
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     allowedHeaders: [
@@ -18,7 +20,6 @@ async function bootstrap() {
       "Origin",
       "X-Requested-With",
     ],
-    exposedHeaders: ["Authorization"],
   });
 
   app.useGlobalPipes(
