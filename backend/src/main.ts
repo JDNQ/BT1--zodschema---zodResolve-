@@ -6,12 +6,10 @@ import { AppModule } from "./app.module";
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
-  // === CẤU HÌNH CORS MẠNH HƠN ===
+  // CORS - CÁCH ĐƠN GIẢN NHẤT VÀ MẠNH NHẤT
   app.enableCors({
-    origin: true, // Cho phép tất cả domain
+    origin: true,
     credentials: true,
-    methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
-    allowedHeaders: ["Content-Type", "Authorization", "Accept", "Origin"],
   });
 
   app.useGlobalPipes(
