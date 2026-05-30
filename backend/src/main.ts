@@ -8,16 +8,10 @@ async function bootstrap() {
 
   // === CẤU HÌNH CORS MẠNH HƠN ===
   app.enableCors({
-    origin: [
-      "https://bt-1-zodschema-zod-resolve-frontend-66oz2plls-jdnqs-projects.vercel.app",
-      "http://localhost:3000",
-      "http://127.0.0.1:3000",
-      "http://localhost:3001",
-    ],
+    origin: true, // Cho phép tất cả domain
+    credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization", "Accept", "Origin"],
-    credentials: true,
-    exposedHeaders: ["Authorization"],
   });
 
   app.useGlobalPipes(
