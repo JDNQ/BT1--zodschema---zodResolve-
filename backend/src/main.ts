@@ -4,12 +4,8 @@ import { DocumentBuilder, SwaggerModule } from "@nestjs/swagger";
 import { AppModule } from "./app.module";
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
-
-  // CORS - CÁCH ĐƠN GIẢN NHẤT VÀ MẠNH NHẤT
-  app.enableCors({
-    origin: true,
-    credentials: true,
+  const app = await NestFactory.create(AppModule, {
+    cors: true, // Cách này đơn giản nhất của NestJS
   });
 
   app.useGlobalPipes(
@@ -20,6 +16,7 @@ async function bootstrap() {
     }),
   );
 
+  // Swagger giữ nguyên...
   const config = new DocumentBuilder()
     .setTitle("Auth API")
     .setDescription("API cho Login va Register")
