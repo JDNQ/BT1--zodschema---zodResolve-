@@ -6,12 +6,12 @@
     "node": "20.x || 22.x || 24.x"
   },
   "scripts": {
+    "start:dev": "nest start --watch",
     "build": "nest build",
     "start": "node dist/src/main.js",
-    "start:dev": "nest start --watch",
     "start:prod": "node dist/src/main.js",
-    "prisma:generate": "prisma generate --config prisma.config.ts",
-    "prisma:migrate": "prisma migrate deploy --config prisma.config.ts"
+    "prisma:generate": "npx prisma generate --config prisma.config.ts",
+    "prisma:migrate": "npx prisma migrate deploy --config prisma.config.ts"
   },
   "dependencies": {
     "@nestjs/common": "^10.4.4",
