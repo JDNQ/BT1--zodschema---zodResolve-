@@ -8,7 +8,7 @@ async function bootstrap() {
 
   app.enableCors({
     origin: [
-      "http://localhost:3000", // Next.js dev
+      "https://bt-1-zodschema-zod-resolve-frontend-66oz2plls-jdnqs-projects.vercel.app", // Next.js dev
       "http://127.0.0.1:3000",
       "http://localhost:3001", // nếu bạn dùng chung origin
     ],
